@@ -30,7 +30,7 @@
       var $ = document.querySelector.bind(document);
       window.onload = function () {
         Ps.initialize($('#Default'));
-        Ps.initialize($('#WheelPropagation'), {wheelPropagation: true});
+        Ps.initialize($('#WheelPropagation'), {wheelPropagation: true,  suppressScrollY: true, useBothWheelAxes: true, wheelPropagationX: true});
       };
     </script>
   </body>
